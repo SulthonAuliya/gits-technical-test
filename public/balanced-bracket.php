@@ -2,7 +2,7 @@
 if (isset($_GET['string']) && $_GET['string'] !== '') {
     $string = $_GET['string'];
 
-    function isBalanced(string $s): string {
+    function isBalanced(string $s) {
         $pairs = [
             ')' => '(',
             ']' => '[',
