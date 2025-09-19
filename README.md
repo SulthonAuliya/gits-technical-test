@@ -9,3 +9,6 @@
 
 - Space Complexity: O(n)
   The stack stores all opening brackets, which can be up to n elements. str_split($s) creates an array of size n. so, the memory usage grows linearly with the input size.
+
+  # 3. Highest Palindrome
+![Screenshoot](screenshots/ss3.png)
